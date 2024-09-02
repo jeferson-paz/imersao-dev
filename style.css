@@ -1,7 +1,7 @@
 /* Importa a fonte OnePiece */
 @font-face {
     font-family: 'OnePiece';
-    src: url('fonts/OnePiece.ttf') format('truetype'); /* Altere para o nome real do arquivo da fonte */
+    src: url('fonts/OnePiece.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,160 +9,88 @@
 /* Estiliza o corpo da página */
 body {
     background-image: url('img/606284.jpg');
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
-    background-size: cover; /* Faz a imagem cobrir toda a área */
-    background-position: center; /* Centraliza a imagem */
-    font-family: 'OnePiece', sans-serif; /* Define a fonte padrão */
-    background-color: #DDDDDD; /* Cor de fundo da página */
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Alinha os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: center; /* Centraliza os itens verticalmente */
-    min-height: 100vh; /* Garante que o corpo cubra toda a altura da viewport */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'OnePiece', sans-serif;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
-    position: relative; /* Garante que o rodapé seja posicionado corretamente */
+    position: relative;
 }
 
 /* Define a animação */
 @keyframes moveText {
     0% {
-        transform: translateX(-100px); /* Começa fora da tela à esquerda */
-        opacity: 0; /* Começa invisível */
+        transform: translateX(-100px);
+        opacity: 0;
     }
     50% {
-        transform: translateX(0); /* Move para a posição original */
-        opacity: 1; /* Fica visível */
+        transform: translateX(0);
+        opacity: 1;
     }
     100% {
-        transform: translateX(100px); /* Move para fora da tela à direita */
-        opacity: 0; /* Fica invisível novamente */
+        transform: translateX(100px);
+        opacity: 0;
     }
 }
 
 /* Estiliza os títulos h1 com a animação */
 h1 {
-    font-size: 2.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
-    text-align: center; /* Alinha o texto ao centro */
-    letter-spacing: 0.4rem; /* Espaçamento entre letras */
-    text-shadow: 1px 1px 0 #ffffff, /* Contorno superior esquerdo */
-                 -1px 1px 0 #ffffff, /* Contorno superior direito */
-                 1px -1px 0 #ffffff, /* Contorno inferior esquerdo */
-                 -1px -1px 0 #ffffff; /* Contorno inferior direito */
-    animation: moveText 5s ease-in-out infinite; /* Aplica a animação */
+    font-size: 2.5rem;
+    color: #222831;
+    text-align: center;
+    letter-spacing: 0.4rem;
+    text-shadow: 1px 1px 0 #ffffff, -1px 1px 0 #ffffff, 1px -1px 0 #ffffff, -1px -1px 0 #ffffff;
+    animation: moveText 5s ease-in-out infinite; /* Adiciona a animação */
 }
 
-/* Estiliza as seções da página */
-section {
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Alinha os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+/* Estiliza o container de pesquisa do Google */
+.gcse-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
-/* Estiliza os inputs dentro das seções */
-section input {
-    width: 30rem; /* Largura dos inputs */
-    border: none; /* Remove a borda padrão */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 1.5rem; /* Borda arredondada */
-    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #45474B; /* Cor do texto */
-    font-size: 1rem; /* Tamanho da fonte */
-    box-sizing: border-box; /* Inclui padding e border na largura total */
-    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo translúcida */
-}
-
-/* Estiliza os botões dentro das seções */
-section button {
-    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
-    border: none; /* Remove a borda padrão */
-    border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #30475E; /* Cor de fundo do botão */
-    color: #F5F7F8; /* Cor do texto do botão */
-    font-size: 1rem; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    transition: background-color 0.3s ease; /* Adiciona uma transição suave na cor de fundo */
-}
-
-/* Muda a cor do botão ao passar o mouse sobre ele */
-section button:hover {
-    background-color: #007bff; /* Cor de fundo ao passar o mouse */
-    color: #ffffff; /* Cor do texto ao passar o mouse */
-}
-
-/* Estiliza a caixa de resultados da pesquisa */
-.resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 46vh; /* Altura máxima da caixa de resultados */
-    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 0.6rem; /* Borda arredondada */
-    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo translúcida */
-}
-
-/* Estiliza cada item de resultado */
-.item-resultado {
-    background: #FFFFFF; /* Cor de fundo dos itens */
-    border-radius: 0.6rem; /* Borda arredondada */
-    padding: 1rem; /* Espaçamento interno */
-    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
-}
-
-/* Estiliza os títulos dentro dos itens de resultado */
-.item-resultado h2 {
-    font-size: 1.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
-}
-
-/* Estiliza os links dentro dos itens de resultado */
-.item-resultado a {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #30475E; /* Cor do texto dos links */
-}
-
-/* Estiliza os links quando são passados o mouse sobre */
-.item-resultado a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-}
-
-/* Estiliza a descrição meta dentro dos itens de resultado */
-.descricao-meta {
-    color: #45474B; /* Cor do texto */
-    margin: 0.5rem 0; /* Margem acima e abaixo */
+input.gsc-input {
+    width: 150px !important;
+    padding: 5px !important;
 }
 
 /* Estiliza o rodapé */
 footer {
-    background-color: rgba(245, 247, 248, 0.8); /* Cor de fundo translúcida */
-    color: #45474B; /* Cor do texto */
-    text-align: center; /* Alinha o texto ao centro */
-    padding: 10px 0; /* Espaçamento interno, 10px em cima e embaixo */
-    width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
-    bottom: 0; /* Alinha ao fundo da página */
-    font-size: 1rem; /* Tamanho da fonte */
+    background-color: rgba(245, 247, 248, 0.8);
+    color: #45474B;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
 }
 
 /* Estiliza a área de mídias sociais no rodapé */
 .social-media {
-    margin-top: 10px; /* Espaço entre o texto e os ícones */
+    margin-top: 10px;
 }
 
 /* Estiliza os ícones de mídias sociais */
 .social-media a {
-    color: #45474B; /* Cor padrão dos ícones */
-    text-decoration: none; /* Remove o sublinhado dos ícones */
-    margin: 0 10px; /* Espaço horizontal entre os ícones */
-    font-size: 24px; /* Tamanho dos ícones */
-    vertical-align: middle; /* Alinha verticalmente os ícones */
-    padding: 5px; /* Espaço interno ao redor dos ícones */
+    color: #45474B;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    vertical-align: middle;
+    padding: 5px;
 }
 
 /* Muda a cor dos ícones ao passar o mouse sobre eles */
 .social-media a:hover {
-    color: #007bff; /* Cor ao passar o mouse */
+    color: #007bff;
 }
