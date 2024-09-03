@@ -80,7 +80,7 @@ Assista a uma demonstração do projeto em vídeo:
 ## Autor
 **Jeferson Paz** 👋
 
-- [LinkedIn](#) 🔗
-- [Instagram](#) 📸
-- [GitHub](#) 💻
-- [Portfólio](#) 🌟
+- [LinkedIn](#https://www.linkedin.com/in/jeferson-paz/) 🔗
+- [Instagram](#https://www.instagram.com/jeferson.paz_/) 📸
+- [GitHub](#https://github.com/jeferson-paz) 💻
+- [Portfólio](#https://jeferson-paz.github.io/Portfolio/) 🌟
