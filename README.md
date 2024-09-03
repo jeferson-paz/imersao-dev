@@ -13,7 +13,9 @@
 10. [Autor](#autor)
 
 ## Descrição do Projeto
-Este é um projeto web básico que utiliza HTML e CSS para criar uma página temática sobre *One Piece*. 🏴‍☠️ A página inclui um cabeçalho animado, um campo de busca do Google Custom Search, e um rodapé com links para redes sociais e portfólio do desenvolvedor.
+Este é um projeto web básico que utiliza HTML e CSS para criar uma página temática sobre *One Piece*. 🏴‍☠️ A página inclui um cabeçalho animado, um campo de busca do Google Custom Search, e um rodapé com links para as minhas redes sociais e o  meu portfólio.
+
+![Imagem do Projeto](img/606284.jpg)
 
 ## Estrutura de Arquivos
 A estrutura de arquivos do projeto é organizada da seguinte forma:
@@ -27,19 +29,19 @@ A estrutura de arquivos do projeto é organizada da seguinte forma:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/one-piece-project.git
+   https://jeferson-paz.github.io/imersao-dev/#gsc.tab=0&gsc.sort=
    ```
 2. **Navegue até o diretório do projeto**:
    ```bash
-   cd one-piece-project
+   https://github.com/jeferson-paz/imersao-dev
    ```
-3. **Abra o arquivo `index.html` no seu navegador**. 🌐
+3. **Abra o arquivo `https://jeferson-paz.github.io/imersao-dev/#gsc.tab=0&gsc.sort=` no seu navegador**. 🌐
 
 ## Uso
-Após seguir os passos de instalação, basta abrir o arquivo `index.html` no seu navegador de preferência. A página será carregada com um background temático, um título animado e um campo de busca do Google Custom Search. 
+Após seguir os passos de instalação, basta abrir o arquivo `https://jeferson-paz.github.io/imersao-dev/#gsc.tab=0&gsc.sort=` no seu navegador de preferência. A página será carregada com um background temático, um título animado e um campo de busca do Google Custom Search. 
 
 - **Busca Google:** Utilize a barra de busca para procurar informações diretamente do Google. 🔍
-- **Redes Sociais:** Use os ícones no rodapé para visitar as redes sociais e o portfólio do desenvolvedor. 🌟
+- **Redes Sociais:** Use os ícones no rodapé para visitar as minhas redes sociais e o meu portfólio. 🌟
 
 ## Tecnologias Utilizadas
 - **HTML5:** Estrutura da página. 🌐
