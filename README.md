@@ -10,7 +10,8 @@
 7. [Estilo CSS](#estilo-css)
 8. [Como Personalizar](#como-personalizar)
 9. [Captura de Tela](#captura-de-tela)
-10. [Autor](#autor)
+10. [Vídeo do Projeto](#vídeo-do-projeto)
+11. [Autor](#autor)
 
 ## Descrição do Projeto
 Este é um projeto web básico que utiliza HTML e CSS para criar uma página temática sobre *One Piece*. 🏴‍☠️ A página inclui um cabeçalho animado, um campo de busca do Google Custom Search, e um rodapé com links para as minhas redes sociais e o  meu portfólio.
