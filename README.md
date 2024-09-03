@@ -16,7 +16,7 @@
 ## Descrição do Projeto
 Este é um projeto web básico que utiliza HTML e CSS para criar uma página temática sobre *One Piece*. 🏴‍☠️ A página inclui um cabeçalho animado, um campo de busca do Google Custom Search, e um rodapé com links para as minhas redes sociais e o  meu portfólio.
 
-![Imagem do Projeto](img/606284.jpg)
+![Imagem do Projeto](img/perfil.png)
 
 ## Estrutura de Arquivos
 A estrutura de arquivos do projeto é organizada da seguinte forma:
@@ -76,7 +76,7 @@ O arquivo `style.css` define os estilos usados na página. Aqui estão alguns de
 
 Assista a uma demonstração do projeto em vídeo:
 
-[![Assistir ao Vídeo](img/perfil.png)](video/projeto-one-piece.mp4)
+[![Assistir ao Vídeo](img/606284.jpg)](video/projeto-one-piece.mp4)
 
 ## Autor
 **Jeferson Paz** 👋
