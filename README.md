@@ -67,6 +67,14 @@ O arquivo `style.css` define os estilos usados na página. Aqui estão alguns de
 ## Captura de Tela
 **Figura 1**: Captura de tela mostrando a interface do projeto One Piece. 📸
 
+![Imagem do Projeto](img/perfil.png)
+
+## Vídeo do Projeto
+
+Assista a uma demonstração do projeto em vídeo:
+
+[![Assistir ao Vídeo](img/perfil.png)](video/projeto-one-piece.mp4)
+
 ## Autor
 **Jeferson Paz** 👋
 
@@ -74,4 +82,3 @@ O arquivo `style.css` define os estilos usados na página. Aqui estão alguns de
 - [Instagram](#) 📸
 - [GitHub](#) 💻
 - [Portfólio](#) 🌟
-```
